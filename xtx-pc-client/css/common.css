@@ -1,0 +1,236 @@
+/* 各个页面相同的样式表：头、尾 */
+/* 版心 */
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+/* index页面的样式 */
+/* 快捷导航 */
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut .wrapper {
+    height: 52px;
+    /* background-color: pink; */
+}
+
+.shortcut .wrapper ul {
+    float: right;
+    height: 52px;
+    /* background-color: red; */
+}
+
+.shortcut .wrapper li {
+    float: left;
+    line-height: 52px;
+    /* background-color: pink; */
+}
+
+.shortcut .wrapper li a {
+    padding: 0 16px;
+    border-right: 1px solid #666;
+    font-size: 14px;
+    color: #dcdcdc;
+    /* background-color: red; */
+}
+
+.shortcut .wrapper li:last-child a {
+    padding-right: 0;
+    border-right: none;
+}
+
+.shortcut .wrapper span {
+    display: inline-block;
+    margin-right: 8px;
+    width: 11px;
+    height: 16px;
+    background-image: url("../images/sprites.png");
+    background-position: -160px -70px;
+    vertical-align: middle;
+}
+
+/* 导航 */
+.header {
+    height: 70px;
+    margin: 30px auto;
+    /* background-color: pink; */
+}
+
+.header .logo {
+    float: left;
+    width: 207px;
+    height: 70px;
+    /* background-color: pink; */
+}
+
+.header .logo h1 {
+    width: 207px;
+    height: 70px;
+}
+
+.header .logo h1 a {
+    display: block;
+    width: 207px;
+    height: 70px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 0;
+}
+
+.header .nav {
+    float: left;
+    height: 70px;
+    margin-left: 40px;
+    /* background-color: yellow; */
+}
+
+.header .nav ul {
+    height: 70px;
+    line-height: 70px;
+    /* background-color: red; */
+}
+
+.header .nav li {
+    float: left;
+    margin-right: 48px;
+    /* background-color: orange; */
+}
+
+.header .nav li a {
+    padding: 8px 0;
+    /* background-color: pink; */
+}
+
+.header .nav li a:hover {
+    border-bottom: 1px solid #27ba9b;
+    color: #27ba9b;
+}
+
+.header .search {
+    position: relative;
+    float: left;
+    width: 172px;
+    height: 30px;
+    margin-left: 34px;
+    margin-top: 24px;
+    border-bottom: 2px solid #e7e7e7;
+    /* background-color: orange; */
+}
+
+.header input {
+    width: 172px;
+    height: 30px;
+    padding-left: 30px;
+    /* background-color: blueviolet; */
+}
+
+.header input::placeholder {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.header .search span {
+    display: inline-block;
+    position: absolute;
+    left: 2px;
+    top: 6px;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/sprites.png");
+    background-position: -80px -70px;
+    /* background-color: red; */
+}
+
+.header .car {
+    position: relative;
+    float: left;
+    width: 23px;
+    height: 23px;
+    margin-left: 15px;
+    margin-top: 28px;
+    background-image: url("../images/sprites.png");
+    background-position: -120px -70px;
+    /* background-color: pink; */
+}
+
+.header .car span {
+    position: absolute;
+    right: -13px;
+    top: -6px;
+    width: 20px;
+    height: 15px;
+    border-radius: 8px;
+    background-color: #e26237;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+}
+/* footer */
+.footer {
+    height: 340px;
+    background-color: #333;
+}
+.footer .wrapper {
+    width: 1393px;
+    /* background-color: red; */
+}
+.footer .top {
+    height: 174px;
+    padding-top: 59px;
+    padding-left: 135px;
+    border-bottom: 3px solid #434343;
+    /* background-color: yellow; */
+}
+.footer .top li {
+    position: relative;
+    float: left;
+    width: 195px;
+    height: 58px;
+    margin-right: 300px;
+    /* background-color: orange; */
+}
+.footer .top li::before {
+    position: absolute;
+    top: 0;
+    content: "";
+    width: 58px;
+    height: 58px;
+    background-image: url("../images/sprites.png");
+}
+.footer .top li:last-child {
+    margin-right: 0;
+}
+.footer .top li:nth-child(1)::before  {
+    background-position: -64px 0;
+}
+.footer .top li:nth-child(2)::before  {
+    background-position: -130px 0;
+}
+.footer .top li a {
+    position: absolute;
+    left: 77px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 28px;
+    color: white;
+    /* background-color: pink; */
+}
+.footer .bottom {
+    padding-top: 41px;
+}
+.footer .bottom p {
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    padding-bottom: 20px;
+    /* background-color: pink;  */
+}
+.footer .bottom p a {
+    font-size: 14px;
+    color: #999999;
+    /* background-color: red; */
+}
