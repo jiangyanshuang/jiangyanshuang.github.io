@@ -3,7 +3,7 @@
         "apps": [],
         "details": [
             {
-                "appID": "com.neusoft.tax",
+                "appID": "com.may21th.splive",
                 "paths": ["/app/*"]
             }
         ]
