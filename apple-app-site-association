@@ -3,8 +3,8 @@
         "apps": [],
         "details": [
             {
-                "appID": "com.may21th.splive",
-                "paths": ["/app/*"]
+                "appID": "63W83G324K.com.may21th.splive",
+                "paths": ["/*"]
             }
         ]
     }
